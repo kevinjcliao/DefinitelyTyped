@@ -227,9 +227,9 @@ interface Firebase extends FirebaseQuery {
 	 */
 	root(): Firebase;
 	/**
-	 * Returns the last token in a Firebase location.
+	 * Returns the last token in a Firebase location
 	 */
-	key(): string;
+	key: string;
 	/**
 	 * @deprecated Use key() instead.
 	 * Returns the last token in a Firebase location.
